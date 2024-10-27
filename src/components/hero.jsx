@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom'
 import Profile from './../../public/avatar.webp'
 import './../index.css'
 export const Hero = () => {
@@ -7,7 +8,14 @@ export const Hero = () => {
         <div className='flex justify-items-center items-center h-full'>
       <img src={Profile} alt="" width={60} height={60} className='rounded-lg'/>
       
+        <div>
         <h1 className='ml-2 font-fira font-bold'>dimas yoga</h1>
+        <ul className='flex space-x-2 ml-2 font-fira text-sky-400'>
+          <li className='hover:text-gray-400'><Link to="/">home</Link></li>
+          <li className='hover:text-gray-400'><Link to="/about">about</Link></li>
+          <li className='hover:text-gray-400'><Link to="/contact">contact</Link></li>
+        </ul>
+        </div>
         </div>
         <label className="swap swap-rotate mr-5 md:mr-0">
   {/* this hidden checkbox controls the state */}
