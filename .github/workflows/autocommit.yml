@@ -11,7 +11,7 @@ on:
 
 jobs:
   auto_commit:
-    runs-on: PowerShell
+    runs-on: ubuntu-latest
     steps:
       - name: DEBUG 
         run: echo "::debug::Ref = ${{github.ref}}"
