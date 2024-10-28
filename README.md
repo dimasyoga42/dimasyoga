@@ -1,2 +1,2 @@
 ## website portfolio
-ini adalah website portfolio yang saya buat heheh
+ini adalah website portfolio yang saya buat dengan vite + reactjs
