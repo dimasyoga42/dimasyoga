@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom'
-import Profile from './../../public/avatar.webp'
+import Profile from './../../public/download.jpeg'
 import './../index.css'
 export const Hero = () => {
   return (
