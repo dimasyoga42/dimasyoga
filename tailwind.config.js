@@ -19,7 +19,9 @@ export default {
       },
       fontFamily: {
         fira: ['Fira Code', 'monospace'],
-        martin: ['Martian Mono', 'monospace']
+        martin: ['Martian Mono', 'monospace'],
+        japanes: ['Noto Sans JP', 'sans-serif'],
+        china: ['Noto Sans TC', 'sans-serif']
       }
     },
   },
