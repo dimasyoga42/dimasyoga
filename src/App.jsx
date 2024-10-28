@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Home from './pages/home';
 import { Hero } from './components/hero';
-import Fotter from './components/fottoer';
+
 function App() {
   
 
@@ -13,7 +13,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
       </Routes>
-      <Fotter />
      </Router>
     </div>
   )
