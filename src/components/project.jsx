@@ -9,8 +9,8 @@ function Project() {
     <div className="w-full grid grid-cols-1 gap-4 sm:grid-cols-2 ">
     <div className="rounded-lg p-4 text-accent shadow-md transition-shadow duration-300 hover:shadow-lg h-32 ">
   <div className="mt-5">
-    <h2 className="text-xl font-bold cursor-pointer underline underline-offset-2 text-sky-400">Quranku</h2>
-    <p className="text-gray-400 text-xs">a website that I developed only with HTML, CSS and JavaScript</p>
+    <h2 className="text-xl font-bold cursor-pointer underline underline-offset-2 text-sky-400">dimas yoga</h2>
+    <p className="text-gray-400 text-xs">a website that I developed only with ReactJs</p>
     <div className="card-actions justify-end">
     </div>
   </div>
