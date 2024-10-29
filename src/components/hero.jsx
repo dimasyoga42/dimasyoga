@@ -10,7 +10,7 @@ export const Hero = () => {
       
         <div>
         <h1 className='ml-2 font-fira font-bold'>dimas yoga</h1>
-        <ul className='flex space-x-2 ml-2 font-fira text-sky-400'>
+        <ul className='flex space-x-2 ml-2 font-fira text-sky-400 text-xs'>
           <li className='hover:text-gray-400'><Link to="/">home</Link></li>
           <li className='hover:text-gray-400'><Link to="/about">about</Link></li>
           <li className='hover:text-gray-400'><Link to="/contact">contact</Link></li>
