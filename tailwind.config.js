@@ -21,7 +21,8 @@ export default {
         fira: ['Fira Code', 'monospace'],
         martin: ['Martian Mono', 'monospace'],
         japanes: ['Noto Sans JP', 'sans-serif'],
-        china: ['Noto Sans TC', 'sans-serif']
+        china: ['Noto Sans TC', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif']
       }
     },
   },
