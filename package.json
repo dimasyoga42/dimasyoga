@@ -2,6 +2,8 @@
   "name": "anomali",
   "version": "0.1.0",
   "private": true,
+  "author": "dimasyoga42",
+  "description": "website neurawiki",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +11,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.104.1",
+    "animejs": "^4.3.6",
+    "axios": "^1.15.2",
+    "daisyui": "^5.5.19",
+    "lucide-react": "^1.11.0",
     "next": "16.2.4",
+    "next-auth": "^4.24.14",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "zustand": "^5.0.12"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
