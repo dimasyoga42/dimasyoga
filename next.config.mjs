@@ -2,6 +2,7 @@
 const nextConfig = {
   /* config options here */
   allowedDevOrigins: ["dimasyoga.my.id"],
+  devIndicators: false,
 };
 
 export default nextConfig;
