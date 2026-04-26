@@ -2,7 +2,10 @@
 const nextConfig = {
   /* config options here */
   allowedDevOrigins: ["dimasyoga.my.id"],
-  devIndicators: false,
+  devIndicators: {
+    buildActivity: false,
+    buildActivityPosition: "bottom-right",
+  },
 };
 
 export default nextConfig;
